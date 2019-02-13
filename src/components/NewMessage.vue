@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-import db from "@/firebase/init.js";
+import db from "@/firebase/init";
 export default {
   name: "NewMessage",
   props: ["name"],
